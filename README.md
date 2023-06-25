@@ -1,2 +1,3 @@
-# hy1ex.github.io
-hy1ex's personal site
+
+My personal website base on auqaismissing website
+https://github.com/aquaismissing/aquaismissi.ng
