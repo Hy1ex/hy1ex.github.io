@@ -4,19 +4,19 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>hy1ex</title>
-  <meta name="title" content="Hylex1447">
-  <meta name="description" content="A newbie to Developers world & A Gamer">
+  <title>Aquarius</title>
+  <meta name="title" content="Aquarius">
+  <meta name="description" content="Cat lover & Counter-Strike aficionado">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="hy1ex">
-  <meta property="og:site_name" content="hylex">
-  <meta property="og:description" content="A newbie to Developers world & A Gamer">
-  <meta property="og:image" content="https://secure.gravatar.com/avatar/ab2dc39405d8009187fec9d0eda8e0b2920b73711b574723bd56e2f52e924c16?s=512">
+  <meta property="og:title" content="Aquarius">
+  <meta property="og:site_name" content="Aquarius">
+  <meta property="og:description" content="Cat lover & Counter-Strike aficionado">
+  <meta property="og:image" content="https://secure.gravatar.com/avatar/9099f60d60fb5b0d96fc589877deb350.png?size=375">
   <meta property="twitter:card" content="summary">
-  <meta property="twitter:site" content="@Hy1ex1">
-  <link rel="canonical" href="https://hy1ex.github.io/">
-  <link rel="icon" href="favicon.png">
-  <link rel="image_src" href="https://secure.gravatar.com/avatar/ab2dc39405d8009187fec9d0eda8e0b2920b73711b574723bd56e2f52e924c16?s=512">
+  <meta property="twitter:site" content="@aquaismissing">
+  <link rel="canonical" href="https://aquaismissi.ng/">
+  <link rel="icon" href="favicon.svg">
+  <link rel="image_src" href="https://secure.gravatar.com/avatar/9099f60d60fb5b0d96fc589877deb350.png?size=375">
   <style>
     @import url('https://fonts.cdnfonts.com/css/century-gothic-paneuropean');
     @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
@@ -24,7 +24,6 @@
     body {
       margin: 0;
       font-family: "Merriweather", Georgia, serif;
-      font-size: 22px;
       background: #000000;
       color: #ffffff;
     }
@@ -47,69 +46,116 @@
       overflow: hidden;
     }
     .wrapper {
-      max-width: 700px;
-      padding: 48px;
+      max-width: 800px;
+      padding: 32px;
     }
     .hero {
       font-family: "Century Gothic Paneuropean", Georgia, serif;
-      font-size: 50px;
+      font-size: 54px;
       margin: 0;
+    }
+    .hero span {
+      background: #00ff00;
+      color: #000000;
+      padding: 0 8px;
+    }
+    .hero span ::selection {
+      background: #000000;
+      color: #00ff00;
+    }
+    .description {
+      line-height: 36px;
+      font-size: 26px;
+      margin: 14px 0;
+    }
+    .url-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 auto;
+    }
+    .url-container {
+      margin-right: 50px;
     }
     .list-entry {
       font-family: "Fira Code", monospace;
-      font-size: 18px;
       margin: 10px 0;
     }
     .list-pointer {
       opacity: 0.5;
     }
-    .contact {
-      font-size: 20px;
+    .list-entry, .contact {
+      font-size: 22px;
+    }
+    @media only screen and (max-width: 600px) {
+      .hero span {
+        padding: 8px;
+      }
+      :not(.url-container ~ .url-container).url-container p:last-child {
+        margin-bottom: 0;
+      }
     }
   </style>
 </head>
 <body>
   <div id="bg">
     <div class="wrapper">
-      <h1 class="hero">Hi, I'm hylex also know as hy1ex!</h1>
-      <p>A newbie to Developers world & A Gamer.<br>You can find me here —</p>
-      <p class="list-entry">
-        <span class="list-pointer">&gt;</span>
-        <span>twitter:
-          <a href="https://twitter.com/Hy1ex1" aria-label="Twitter" target="_blank">@Hy1ex1</a>
-        </span>
-      </p>
-      <p class="list-entry">
-        <span class="list-pointer">&gt;</span>
-        <span>telegram:
-          <a href="https://telegram.me/hy1ex" aria-label="Telegram" target="_blank">@hy1ex</a>
-        </span>
-      </p>
-      <p class="list-entry">
-        <span class="list-pointer">&gt;</span>
-        <span>steam:
-          <a href="https://steamcommunity.com/profiles/Hylex1447" aria-label="Steam" target="_blank">id/Hylex1447</a>
-        </span>
-      </p>
-      <p class="list-entry">
-        <span class="list-pointer">&gt;</span>
-        <span>discord:
-          <a href="https://discord.com/users/1029795800924037201" aria-label="Discord" target="_blank">hy1ex</a>
-        </span>
-      </p>
-      <p class="list-entry">
-        <span class="list-pointer">&gt;</span>
-        <span>github:
-          <a href="https://github.com/Hy1ex" aria-label="Github" target="_blank">@Hy1ex</a>
-        </span>
-      </p>
-      <p class="list-entry">
-        <span class="list-pointer">&gt;</span>
-        <span>hackerone:
-          <a href="https://hackerone.com/hy1ex" aria-label="HackerOne" target="_blank">@/hy1ex</a>
-        </span>
-      </p>
-      <p class="contact">Contact me: <a href="mailto:Hylex1447@gmail.com" aria-label="Email">Hylex1447@gmail.com</a></p>
+      <h1 class="hero">Hi, I'm <span><i>Aquarius</i></span>!</h1>
+      <p class="description">If you like Counter-Strike as much as I do, we will get along!<br>You can find me here —</p>
+      <div class="url-wrapper">
+        <div class="url-container">
+          <p class="list-entry">
+            <span class="list-pointer">&gt;</span>
+            <span>youtube:
+              <a href="https://www.youtube.com/@aquaismissing" aria-label="YouTube" target="_blank">@aquaismissing</a>
+            </span>
+          </p>
+          <p class="list-entry">
+            <span class="list-pointer">&gt;</span>
+            <span>twitter:
+              <a href="https://twitter.com/aquaismissing" aria-label="Twitter" target="_blank">@aquaismissing</a>
+            </span>
+          </p>
+          <p class="list-entry">
+            <span class="list-pointer">&gt;</span>
+            <span>twitch:
+              <a href="https://www.twitch.tv/aquaismissing" aria-label="Twitch" target="_blank">@aquaismissing</a>
+            </span>
+          </p>
+          <p class="list-entry">
+            <span class="list-pointer">&gt;</span>
+            <span>steam:
+              <a href="https://steamcommunity.com/profiles/76561198346163255" aria-label="Steam" target="_blank">id/aquaismissing</a>
+            </span>
+          </p>
+        </div>
+        <div class="url-container">
+          <p class="list-entry">
+            <span class="list-pointer">&gt;</span>
+            <span>telegram:
+              <a href="https://telegram.me/aquaismissing" aria-label="Telegram" target="_blank">@aquaismissing</a>
+            </span>
+          </p>
+          <p class="list-entry">
+            <span class="list-pointer">&gt;</span>
+            <span>discord:
+              <a href="https://discord.com/users/633075565229899786" aria-label="Discord" target="_blank">@aquaismissing</a>
+            </span>
+          </p>
+          <p class="list-entry">
+            <span class="list-pointer">&gt;</span>
+            <span>github:
+              <a href="https://github.com/aquaismissing" aria-label="Github" target="_blank">@aquaismissing</a>
+            </span>
+          </p>
+          <p class="list-entry">
+            <span class="list-pointer">&gt;</span>
+            <span>hackerone:
+              <a href="https://hackerone.com/aquaismissing" aria-label="HackerOne" target="_blank">@aquaismissing</a>
+            </span>
+          </p>
+        </div>
+      </div>
+      <p class="contact">Contact me: <a href="mailto:hi@aquaismissi.ng" aria-label="Email">hi@aquaismissi.ng</a></p>
     </div>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
